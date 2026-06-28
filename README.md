@@ -17,8 +17,24 @@ install it.
 
 ## Installing a skill
 
-Agent Skills are an open, portable format. Installing one means copying its folder
-into the directory your agent scans for skills:
+### Option 1 — skills.sh CLI (quickest)
+
+Install a skill from this repo with the [`skills`](https://www.skills.sh) CLI — it
+copies the skill into your agent's skills directory and makes it available
+automatically:
+
+```bash
+# A specific skill
+npx skills add benedya/nestjs-skills --skill nestjs-architecture-principles
+
+# …or every skill in this repo
+npx skills add benedya/nestjs-skills
+```
+
+### Option 2 — clone & copy
+
+Agent Skills are an open, portable format. You can also copy a skill's folder
+directly into the directory your agent scans for skills:
 
 | Agent | Skills directory |
 | --- | --- |

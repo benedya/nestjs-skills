@@ -30,6 +30,17 @@ when your project uses:
 
 ## Install
 
+### Option 1 — skills.sh CLI (quickest)
+
+```bash
+npx skills add benedya/nestjs-skills --skill nestjs-architecture-principles
+```
+
+The [`skills`](https://www.skills.sh) CLI copies the skill into your agent's
+skills directory and makes it available automatically.
+
+### Option 2 — clone & copy
+
 Copy the `nestjs-architecture-principles/` folder into the directory your agent
 scans for skills:
 
